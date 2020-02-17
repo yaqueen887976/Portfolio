@@ -5,17 +5,16 @@ import { CenteredHeader } from './App.js'
 class Home extends Component {
   render() {
     return (
+      
       <div>
-        <CenteredHeader>Hi! I'm Sophia. I'm a software developer based in NYC.</CenteredHeader>
-        <p>
-          I've worked throughout the stack, but I especially love building React UI. I currently build software for the newsroom at the New York Times.
-        </p>
-        <p>
-          ​Outside of code, I like to create in other ways. From <a href="https://medium.com/@sophiaciocca/latest" target="_blank">blogging</a> to <a href="https://www.youtube.com/channel/UChfrVcFHC-mfoqrJHuOYt-Q" target="_blank">music-making</a>, <a href="http://sophiacioccaphotography.tumblr.com/" target="_blank">photography</a> to <a href="https://www.instagram.com/sidewalk_poetry/" target="_blank">guerilla sidewalk chalk street art</a>, I'm always trying new ways of expressing myself. I also like to meditate, talk to strangers, and run lifestyle experiments.
-        </p>
-        <p>
-           Previously, I've <a href="https://www.gracehopper.com/" target="_blank">taught code to women</a>, served in the Peace Corps, and management consulted for Fortune 100 companies. I also hold a degree in economics from the University of Pennsylvania.
-        </p>
+        <CenteredHeader>Hi! I'm Kim. I'm a recently graduated student from University of Arizona. 
+        <br/>As you might saw on my enclosed resume, I'm majoring in Computer and Information Sciences. 
+        <br/>I have related computing experiences and skills such as HTML/CSS/ Javascript/Nodejs/Reactjs etc. 
+        <br/>And I'm also familiar with programming languages of Java, Python, C#. <br/>
+        And I'm eager tolearn additional programming skills if necessary. 
+        </CenteredHeader>
+        <p></p>
+        
       </div>
     );
   }

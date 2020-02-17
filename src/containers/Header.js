@@ -3,8 +3,8 @@ import { Link } from 'react-router'
 import styled from 'styled-components';
 
 const ProfileImage = styled.img`
-  width: 12em;
-  height: 12em;
+  width: 2.5em;
+  height: 3em;
   border-radius: 50%;
 `;
 
@@ -32,14 +32,14 @@ class Header extends Component {
     return (
       <HeaderDiv>
         <Link to="/">
-          <ProfileImage src={require('../assets/confettiCropped.jpg')} alt='Sophia Ciocca'/>
-          <ProfileTitle>SOPHIA CIOCCA</ProfileTitle>
+          <ProfileImage src={require('../assets/LinkedInImg.JPG')} alt='Yaqin Wang'/>
+          <ProfileTitle>Kim Wang</ProfileTitle>
         </Link>
         <div>
           <NavLink to='/'>ABOUT</NavLink>
-          <NavLink to='/code'>CODE</NavLink>
-          <NavLink to='/writing'>BLOG</NavLink>
-          <NavLink to='/life'>LIFE</NavLink>
+          <NavLink to='/code'>HOBBY</NavLink>
+          <NavLink to='/writing'>EXPERIENCE</NavLink>
+          
           <NavLink to='/contact'>CONTACT</NavLink>
         </div>
         <hr/>

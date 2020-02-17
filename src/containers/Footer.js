@@ -36,18 +36,17 @@ class Footer extends Component {
             <div className="row social" style={{ margin: 0 }}>
               <div className="col-lg-12">
                 <SocialIconList>
-                  <SocialIcon><a href="mailto:sophiaciocca@gmail.com" target="_blank"><FAIcon className="fa fa-envelope fa-fw fa-2x" /></a></SocialIcon>
-                  <SocialIcon><a href="http://www.linkedin.com/in/sophiaciocca" target="_blank"><FAIcon className="fa fa-linkedin fa-fw fa-2x" /></a></SocialIcon>
-                  <SocialIcon><a href="https://github.com/sophiaciocca" target="_blank"><FAIcon className="fa fa-github fa-fw fa-2x" /></a></SocialIcon>
-                  <SocialIcon><a href="https://medium.com/@sophiaciocca/latest" target="_blank"><FAIcon className="fa fa-medium fa-fw fa-2x" /></a></SocialIcon>
-                  <SocialIcon><a href="https://twitter.com/sophiaciocca" target="_blank"><FAIcon className="fa fa-twitter fa-fw fa-2x" /></a></SocialIcon>
+                  <SocialIcon><a href="mailto:yaqinwang887976@gmail.com" target="_blank"><FAIcon className="fa fa-envelope fa-fw fa-2x" /></a></SocialIcon>
+                  <SocialIcon><a href="http://www.linkedin.com/in/yaqin-wang-801568177" target="_blank"><FAIcon className="fa fa-linkedin fa-fw fa-2x" /></a></SocialIcon>
+                  <SocialIcon><a href="https://github.com/yaqueen887976" target="_blank"><FAIcon className="fa fa-github fa-fw fa-2x" /></a></SocialIcon>
+                  
                 </SocialIconList>
                 <br />
               </div>
             </div>
             <div className="row" id="copyright" style={{ margin: 0 }}>
               <div className="col-lg-12">
-                <p className="small">© 2019 Sophia Ciocca</p>
+                <p className="small">© 2019 Yaqin Wang</p>
               </div>
             </div>
       </FooterDiv>

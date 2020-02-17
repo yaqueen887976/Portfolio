@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 
 import { CenteredHeader } from './App.js'
-import { PortButton } from './Code.js'
+//import { PortButton } from './Code.js/index.js.js'
 
 const FormDiv = styled.div`
   margin: 0 auto;
@@ -35,7 +35,7 @@ class Contact extends Component {
         <CenteredHeader>Get in touch with me!</CenteredHeader>
 
         <FormDiv>
-          <form action="https://formspree.io/sophiaciocca@gmail.com" method="POST" id="contactform">
+          <form action="https://formspree.io/yaqinwang887976@gmail.com" method="POST" id="contactform">
             <div>
               <FormLabel>Name:</FormLabel>
               <FormInput type="text" name="name" />
@@ -52,7 +52,7 @@ class Contact extends Component {
           </form>
         </FormDiv>
 
-        <EmailMe>Or, just email me directly at <a href="mailto:sophiaciocca@gmail.com" target="_blank"><strong>sophiaciocca@gmail.com</strong></a>.</EmailMe>
+        <EmailMe>Or, just email me directly at <a href="mailto:yaqinwang887976@gmail.com" target="_blank"><strong>yaqinwang887976@gmail.com</strong></a>.</EmailMe>
 
         {/* <hr/> */}
         {/* <CenteredHeader><PortButton href="https://drive.google.com/file/d/0B-Wn-csD32OpVmUyVXFVa0JJakE/view" target="_blank">Download My Resume</PortButton></CenteredHeader> */}
